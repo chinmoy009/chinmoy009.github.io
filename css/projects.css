@@ -1,0 +1,61 @@
+/* #projects {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  } */
+  
+  .cert-section {
+    padding: 3rem 1.5rem;
+    background: #fff;
+    color: #333;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+  }
+  
+  .cert-card {
+    display: block;
+    border-left: 4px solid #444;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .cert-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.25rem;
+  }
+  
+  .cert-header h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .cert-date {
+    font-size: 0.95rem;
+    color: #666;
+  }
+  
+  .cert-subtitle {
+    font-style: italic;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+    color: #444;
+  }
+  
+  .cert-card p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
