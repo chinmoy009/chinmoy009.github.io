@@ -1,104 +1,147 @@
 /* Make sure that padding behaves as expected */
-* {box-sizing:border-box}
+* {
+  box-sizing: border-box;
+}
 
 /* Container for skill bars */
 .container {
-    width: 100%; /* Full width */
-    background-color: #ddd; /* Grey background */
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
 }
 
 .skills {
-    text-align: right; /* Right-align text */
-    padding: 10px; /* Add some padding */
-    color: white; /* White text color */
+  text-align: right; /* Right-align text */
+  padding: 10px; /* Add some padding */
+  color: white; /* White text color */
 }
 
-
 .skills-section {
-    padding: 2rem;
-    background-color: #f9fafb;
-  }
-  
-  .section-title {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 600;
-    color: #222;
-    margin-bottom: 1.5rem;
-  }
-  
-  .skills-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.75rem;
-  }
-  
-  .skill-badge {
-    background-color: #f3f4f6;
-    color: #333;
-    padding: 0.5rem 1rem;
-    border-radius: 999px;
-    font-size: 0.95rem;
-    font-weight: 500;
-    transition: all 0.3s ease;
-  }
-  
-  .skill-badge:hover {
-    background-color: #e0e7ff;
-    transform: scale(1.05);
-  }
+  padding: 2rem;
+  background-color: #f9fafb;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 1.5rem;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.skill-badge {
+  background-color: #f3f4f6;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.skill-badge:hover {
+  background-color: #e0e7ff;
+  transform: scale(1.05);
+}
 
 .soft-skills-section {
-    padding: 2rem;
-    background-color: #f9fafb;
-  }
+  padding: 2rem;
+  background-color: #f9fafb;
+}
 
-  .soft-skills-section h2 {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
-    text-align: center;
-  }
+.soft-skills-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
 
-  .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1rem;
-  }
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
 
-  .skill-card {
-    background: white;
-    border-radius: 1rem;
-    padding: 1.5rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    transition: transform 0.2s ease;
-  }
+.skill-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
 
-  .skill-card:hover {
-    transform: translateY(-4px);
-  }
+.skill-card:hover {
+  transform: translateY(-4px);
+}
 
-  .skill-card h3 {
-    margin-bottom: 0.5rem;
-    font-size: 1.1rem;
-  }
+.skill-card h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
 
-  .skill-card p {
-    font-size: 0.95rem;
-    color: #555;
-  }
+.skill-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
 
-.html {width: 77%; background-color: #2196F3;} /* Green */
-.css {width: 77%; background-color: #2196F3;} /* Blue */
-.js {width: 75%; background-color: #2196F3;} /* Red */
-.php {width: 60%; background-color: #2196F3;} /* Dark Grey */
-.java {width: 84%; background-color: #2196F3;} /* Dark Grey */
-.cpp {width: 84%; background-color: #2196F3;} /* Dark Grey */
-.python {width: 80%; background-color: #2196F3;} /* Dark Grey */
-.php {width: 60%; background-color: #2196F3;} /* Dark Grey */
-.fb {width: 86%; background-color: #2196F3;} /* Dark Grey */
-.ns {width: 87%; background-color: #2196F3;} /* Dark Grey */
-.sq {width: 86%; background-color: #2196F3;} /* Dark Grey */
-.tm {width: 97%; background-color: #2196F3;} /* Dark Grey */
-.cm {width: 94%; background-color: #2196F3;} /* Dark Grey */
-.ql {width: 92%; background-color: #2196F3;} /* Dark Grey */
+.html {
+  width: 77%;
+  background-color: #2196f3;
+} /* Green */
+.css {
+  width: 77%;
+  background-color: #2196f3;
+} /* Blue */
+.js {
+  width: 75%;
+  background-color: #2196f3;
+} /* Red */
+.php {
+  width: 60%;
+  background-color: #2196f3;
+} /* Dark Grey */
+.java {
+  width: 84%;
+  background-color: #2196f3;
+} /* Dark Grey */
+.cpp {
+  width: 84%;
+  background-color: #2196f3;
+} /* Dark Grey */
+.python {
+  width: 80%;
+  background-color: #2196f3;
+} /* Dark Grey */
+.php {
+  width: 60%;
+  background-color: #2196f3;
+} /* Dark Grey */
+.fb {
+  width: 86%;
+  background-color: #2196f3;
+} /* Dark Grey */
+.ns {
+  width: 87%;
+  background-color: #2196f3;
+} /* Dark Grey */
+.sq {
+  width: 86%;
+  background-color: #2196f3;
+} /* Dark Grey */
+.tm {
+  width: 97%;
+  background-color: #2196f3;
+} /* Dark Grey */
+.cm {
+  width: 94%;
+  background-color: #2196f3;
+} /* Dark Grey */
+.ql {
+  width: 92%;
+  background-color: #2196f3;
+} /* Dark Grey */
